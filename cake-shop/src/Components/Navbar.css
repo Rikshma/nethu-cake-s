@@ -1,0 +1,79 @@
+/* General Navbar Styles */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    /* Optional for better contrast */
+}
+
+.navbar-container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    /* Ensure no extra margins */
+
+}
+
+/* Logo Styles */
+.logo .navbar-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar-logo-img {
+    height: 50px;
+    /* Adjust the size as needed */
+    width: auto;
+}
+
+/* Menu Styles */
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar-menu .navbar-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu .navbar-link:hover {
+    color: #ff6363;
+}
+
+/* Cart Icon Styles */
+.navbar-cart .cart-icon {
+    font-size: 1.5rem;
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-cart .cart-icon:hover {
+    color: #ff6363;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-cart .cart-icon {
+        font-size: 1.3rem;
+    }
+}
