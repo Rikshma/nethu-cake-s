@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #fff;
+    background: linear-gradient(to right, pink, purple);
     padding: 0;
     /* Removed black background */
 }
@@ -40,7 +40,7 @@ body {
 
 /* Images with animation */
 .main-image {
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
     border-radius: 10px;
     opacity: 0;
@@ -101,7 +101,7 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .main-image {
-        max-width: 50%;
+        max-width: 100%;
     }
 
     .title {
@@ -117,3 +117,14 @@ body {
         padding: 15px;
     }
 }
+
+.mouse-trail {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 0.7;
+    transition: opacity 0.5s ease-out;
+  }

@@ -1,13 +1,15 @@
 import React from 'react';
 import './Home.css';
 import Navbar from '../Components/Navbar'; // Ensure correct path
-import image1 from '../Assets/Home-1.webp'; // Update paths if needed
-import image2 from '../Assets/Home-2.webp';
-import image3 from '../Assets/Home-3.jpg';
+import image1 from '../Assets/c1.jpg'; // Update paths if needed
+import image2 from '../Assets/c 3.jpg';
+import image3 from '../Assets/c2.jpg';
+import Cursor from '../Components/Cursor'; // Correct path for Cursor
 
 const Home = () => {
     return (
         <>
+            <Cursor /> {/* Add the Cursor component here */}
             <Navbar />
             <div className="home-container">
                 <div className="image-section">

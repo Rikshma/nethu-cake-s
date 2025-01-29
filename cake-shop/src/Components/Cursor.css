@@ -1,0 +1,19 @@
+/* Cursor.css */
+.cursor {
+    position: absolute;
+    width: 50px;  /* Set width of the cake */
+    height: 50px; /* Set height of the cake */
+    background-image: url('../Assets/cm.png'); /* Add your cake image path */
+    background-size: cover;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease;
+  }
+  
+  /* Optional: Grow or shrink when hovering over elements */
+  .cursor:hover {
+    transform: scale(1.2) translate(-50%, -50%);
+  }
+  
+  
