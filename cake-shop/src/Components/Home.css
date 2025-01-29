@@ -26,6 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     background: transparent;
+    margin-top: 30rem;
 }
 
 .image-wrapper {
@@ -39,7 +40,7 @@ body {
 
 /* Images with animation */
 .main-image {
-    width: 100%;
+    width: 90%;
     max-width: 1000px;
     border-radius: 10px;
     opacity: 0;
@@ -100,7 +101,7 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .main-image {
-        max-width: 90%;
+        max-width: 50%;
     }
 
     .title {
