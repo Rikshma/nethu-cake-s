@@ -3,7 +3,7 @@ import './Home.css';
 import Navbar from '../Components/Navbar'; // Ensure correct path
 import image1 from '../Assets/c1.jpg'; // Update paths if needed
 import image2 from '../Assets/c 3.jpg';
-import image3 from '../Assets/c2.jpg';
+import image3 from '../Assets/c4.jpg';
 import Cursor from '../Components/Cursor'; // Correct path for Cursor
 
 const Home = () => {
