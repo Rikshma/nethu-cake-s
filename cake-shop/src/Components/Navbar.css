@@ -7,8 +7,8 @@
     position: fixed;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(to right, purple, pink);
+
+    background: white;
     /* Optional for better contrast */
 }
 
@@ -32,7 +32,7 @@
 }
 
 .navbar-logo-img {
-    height: 50px;
+    height: 120px;
     /* Adjust the size as needed */
     width: auto;
 }
@@ -46,7 +46,7 @@
 
 .navbar-menu .navbar-link {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #000;
     transition: color 0.3s ease;
 }
